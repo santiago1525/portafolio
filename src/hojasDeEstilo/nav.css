@@ -13,6 +13,7 @@
     border-radius: 50px;
     opacity: 0;
     animation: fade-nav-in 1s ease 1 1s forwards;
+    z-index: 1000;
   }
   
   @keyframes fade-nav-in {

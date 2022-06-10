@@ -2,7 +2,7 @@ import './App.css';
 import Header from './components/header';
 import Navbar from './components/nav';
 import Home from './components/home';
-import About from './components/about';
+import Works from './components/works';
 import Contact from './components/contact';
 import Footer from './components/footer';
 
@@ -14,7 +14,7 @@ function App() {
       <Header />
       <Navbar />
       <Home />
-      <About />
+      <Works />
       <Contact />
       <Footer />
     </div>

@@ -24,6 +24,7 @@
     align-items: center;
     width: 100%;
     margin-top: 40px;
+    text-decoration: none;
   }
   
   .contact-container .contact {
@@ -36,6 +37,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-decoration: none !important;
     transition: background 0.3s ease, transform 0.2s ease;
   }
   
@@ -244,7 +246,7 @@
       justify-content: flex-start;
       align-items: flex-start;
       min-height: 80vh;
-      margin-top: 100px;
+      margin-top: 50px;
       padding: 15px;
     }
   
