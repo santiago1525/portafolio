@@ -9,7 +9,7 @@ function Contact() {
       <h1>Contacto</h1>
       <div className="contact-links">
         <a
-          href="#"
+          href="mailto:santich2013@hotmail.com"
           className="contact email"
           target={"blank"}
         >
@@ -20,7 +20,7 @@ function Contact() {
         </a>
 
         <a
-          href="#"
+          href="https://api.whatsapp.com/send?phone=573134230339"
           className="contact whatsapp"
           target={"blank"}
         >

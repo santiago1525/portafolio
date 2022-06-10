@@ -17,7 +17,7 @@ function Footer() {
           </h2>
         </a>
       </h1>
-      <div className="social-links">
+       {/* <div className="social-links">
         <a href="#">
           <BsInstagram className="social" />
         </a>
@@ -35,10 +35,10 @@ function Footer() {
         </a>
 
         <a href="#">
-          <TiSocialGithub className="social" />
+          <TiSocialGithub className="social" /> 
         </a>
-      </div>
-    </div>
+      </div>*/}
+    </div> 
   );
 }
 export default Footer;
