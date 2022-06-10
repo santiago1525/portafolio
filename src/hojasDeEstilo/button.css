@@ -137,3 +137,8 @@
   }
 }
 
+@media (min-width: 992px) {
+  .container {
+    max-width: 900px !important;
+  }
+}

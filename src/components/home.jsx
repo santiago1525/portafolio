@@ -34,7 +34,7 @@ function Home() {
       <h2 id='about'>
         <span>Sobre Mi</span> <br />
         <p>
-          Diseñador web en constante aprendizaje, con experiencia en la creación de paginas web con lenguajes como HTML y CSS, también he realizado proyectos de paginas web con conexión a base de datos creadas con MYSQL o Firebase, algunas administradas por medio de phpMyAdmin y desarrolladas con PHP, JAVASCRIPT y frameworks de CSS llamados Materialize o Boostrap para un diseño completamente responsivo. <br /> <br />
+          Diseñador web en constante aprendizaje, con experiencia en la creación de paginas web con lenguajes como HTML y CSS, he realizado proyectos de paginas web con conexión a base de datos creadas con MYSQL o Firebase, algunas administradas por medio de phpMyAdmin y desarrolladas con PHP, JAVASCRIPT y frameworks de CSS llamados Materialize o Boostrap para un diseño completamente responsivo, también he implementado proyectos trabajados con React.js a través de la creación de componentes. <br /> <br />
           Experiencia en la creación de aplicaciones no code totalmente funcionales tanto para IOS como para ANDROID en plataformas como Glide, Adalo y FlutterFlow. <br /> <br />
           Conocimiento nivel avanzado en excel. <br /> <br />
          Conocimiento en otros lenguajes como C++.
