@@ -39,7 +39,23 @@
     }
 }
 
+.carousel {
+    border-top: 3px solid var(--color-pri-light);
+    border-bottom: 3px solid var(--color-pri-light);
+    user-select: none;
+    opacity: 0;
+    animation: fade-in 1s ease 1 1s forwards;
+}
+
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
     user-select: none;
+    border-radius: 50%;
+    
+}
+@media (min-width: 1000px) {
+    .carousel {
+        margin: 0 190px;
+        border: 2px solid var(--color-pri-light);
+    }
 }
