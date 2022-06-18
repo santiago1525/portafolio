@@ -21,8 +21,6 @@ const items = [
 ];
 
 
-
-
 export default function Works() { 
 
   return(
@@ -38,7 +36,7 @@ export default function Works() {
   );
 }
 
- // "<div class="data"><h1>Tema 1</h1></div>"
+
 
   
         
