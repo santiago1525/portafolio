@@ -16,6 +16,7 @@
     font-family: 'Open Sans Condensed';
     font-weight: 400;
     padding-bottom: 25px;
+    text-align: center;
 }
 
 .about-container a {
@@ -50,12 +51,42 @@
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
     user-select: none;
-    border-radius: 50%;
-    
+    opacity: 0; 
+}
+.carousel-control-next,
+.carousel-control-prev {
+    cursor: default !important;
 }
 @media (min-width: 1000px) {
     .carousel {
         margin: 0 190px;
         border: 2px solid var(--color-pri-light);
+    }
+}
+
+.carousel-indicators {
+    background-color: black;
+    opacity: .5;
+    margin: 0 !important;
+    padding: 4px;
+}
+.carousel-indicators [data-bs-target]{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: #fff;
+    margin-right: 10px;
+}
+.carousel-indicators [data-bs-target]:last-child {
+    margin-right: 0;
+}
+
+@media (max-width: 450px) {
+    .carousel-indicators {
+        padding: 0;
+    }
+    .carousel-indicators [data-bs-target] {
+        width: 10px;
+        height: 10px;
     }
 }

@@ -20,16 +20,26 @@ const items = [
   }
 ];
 
-const Works = () => 
+
+
+
+export default function Works() { 
+
+  return(
     <div className='container-all'>
         <div id='work' className='about-container'>
             <h1>
                 Algunos de mis proyectos
             </h1>
             <UncontrolledCarousel items={items} />
-            <a href='#'>Click aquí para ver los proyectos</a>
+            <a href='#home'>Click aquí para ver los proyectos</a>
         </div>
     </div>
+  );
+}
+
+ // "<div class="data"><h1>Tema 1</h1></div>"
+
+  
         
 
-export default Works;
