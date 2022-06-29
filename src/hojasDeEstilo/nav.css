@@ -126,9 +126,19 @@
     }
   
     .icon {
-      font-size: 40px;
+      font-size: 50px;
       padding: 10px;
       transition: fill 0.1s ease;
       fill: rgb(209, 217, 252);
     }
+    .down {
+      display: none;
+    }
   }
+
+@media (max-width: 300px) {
+    .icon {
+      font-size: 30px;
+      padding: 5px;
+    }
+}

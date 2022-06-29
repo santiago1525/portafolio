@@ -20,7 +20,7 @@ function Navbar() {
             <a href='#contact'>
                 <BsPhone className='icon' />
             </a>
-            <a href='#footer'>
+            <a href='#footer' className='down'>
                 <BsArrowDownCircle className='icon' />
             </a>
         </nav>

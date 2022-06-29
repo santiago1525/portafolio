@@ -1,42 +1,68 @@
-import { UncontrolledCarousel } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../hojasDeEstilo/works.css';
+import {BsGithub, BsFillEyeFill} from 'react-icons/bs';
+
 
 const items = [
   {
-    src: require('../props/landingPage.png'),
+    title: 'landing page',
+    img: require('../props/landingPage.png'),
+    link: 'https://landingpage-scc.netlify.app/',
+    github: 'https://github.com/santiago1525/landingPage'
   },
   {
-    src: require('../props/sistemaUsuarios.png'),
-    
+    title: 'sistema usuarios',
+    img: require('../props/sistemaUsuarios.png'),
+    link: 'http://sistema-usuarios.epizy.com',
+    github: 'https://github.com/sistemausuarios'
   },
   {
-    src: require('../props/firebase.png'),
-    
+    title: 'blog de cafe',
+    img: require('../props/bloCafe.png'),
+    link: 'https://blogdecafe-scc.netlify.app/',
+    github: 'https://github.com/santiago1525/blogCafe'
   },
   {
-    src: require('../props/bloCafe.png'),
-    
-  }
-];
+    title: 'firebase',
+    img: require('../props/firebase.png'),
+    link: 'https://firebase-auth-scc.netlify.app/',
+    github: 'https://github.com/santiago1525/firebaseAuth'
+  },
+
+]
 
 
 export default function Works() { 
 
   return(
-    <div className='container-all'>
-        <div id='work' className='about-container'>
-            <h1>
-                Algunos de mis proyectos
-            </h1>
-            <UncontrolledCarousel items={items} />
-            <a href='https://app.flutterflow.io/embed.html?ffCompiledSrc=https%3A%2F%2Fstorage.googleapis.com%2Fflutterflow-io-6f20.appspot.com%2Fbuild_outputs%2Fportafolio-ov1ma1%2Fweb%2FhbunKimaFnHGRYK0TVI4%2Fmain.dart.js#/'>Click aquí para ver los proyectos</a>
-        </div>
-    </div>
+    <section id='work' className='portafolio'>
+      <h2 className='portafolio_title'>Portafolio</h2> 
+      <div className="container portafolio_container">
+        {
+          items.map(item => 
+            {
+              return(
+                  <article className='portafolio_item'>
+                    <div className="portafolio_item-image">
+                      <img src={item.img} alt="proyect" />
+                    </div> 
+                    <h3>{item.title}</h3>
+                    <div className="portafolio_item-cta">
+                       <a href={item.github} className='btn-pri btn' target={`_blank`}>GitHub <BsGithub /></a>
+                       <a href={item.link} className='btn-sec btn' target={`_blank`}>Vista <BsFillEyeFill /></a>
+                    </div>
+                  </article>
+              )
+            
+            }
+          )  
+        } 
+    
+      </div>
+    </section>
+   
   );
 }
-
-
 
   
         
