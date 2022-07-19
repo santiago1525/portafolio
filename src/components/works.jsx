@@ -5,6 +5,12 @@ import {BsGithub, BsFillEyeFill} from 'react-icons/bs';
 
 const items = [
   {
+    title: 'firebase',
+    img: require('../props/react-app.png'),
+    link: 'https://cursos-firebase.vercel.app/',
+    github: 'https://github.com/santiago1525/cursosFirebase'
+  },
+  {
     title: 'landing page',
     img: require('../props/landingPage.png'),
     link: 'https://landingpage-scc.netlify.app/',
@@ -12,7 +18,7 @@ const items = [
   },
   {
     title: 'sistema usuarios',
-    img: require('../props/sistemaUsuarios.png'),
+    img: require('../props/sistema-usuarios.png'),
     link: 'http://sistema-usuarios.epizy.com',
     github: 'https://github.com/sistemausuarios'
   },
@@ -21,13 +27,7 @@ const items = [
     img: require('../props/bloCafe.png'),
     link: 'https://blogdecafe-scc.netlify.app/',
     github: 'https://github.com/santiago1525/blogCafe'
-  },
-  {
-    title: 'firebase',
-    img: require('../props/firebase.png'),
-    link: 'https://firebase-auth-scc.netlify.app/',
-    github: 'https://github.com/santiago1525/firebaseAuth'
-  },
+  }
 
 ]
 
