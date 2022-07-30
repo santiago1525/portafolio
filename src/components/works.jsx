@@ -14,6 +14,12 @@ import { EffectCoverflow, Pagination } from "swiper";
 
 const items = [
   {
+    title: 'Real State',
+    img: require('../props/realState.png'),
+    link: 'https://real-state-wheat.vercel.app/',
+    github: 'https://github.com/santiago1525/realState'
+  },
+  {
     title: 'firebase',
     img: require('../props/react-app.png'),
     link: 'https://cursos-firebase.vercel.app/',
@@ -24,12 +30,6 @@ const items = [
     img: require('../props/relojeria.png'),
     link: 'https://relojeria-scc.netlify.app/',
     github: 'https://github.com/santiago1525/relojeria'
-  },
-  {
-    title: 'Real State',
-    img: require('../props/realState.png'),
-    link: 'https://real-state-wheat.vercel.app/',
-    github: 'https://github.com/santiago1525/realState'
   },
   {
     title: 'sistema usuarios',
