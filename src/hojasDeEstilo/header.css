@@ -43,4 +43,5 @@
     color: var(--color-pri);
     font-family: "Open Sans";
     letter-spacing: 1px;
+    padding-top: 8px;
 }

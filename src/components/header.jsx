@@ -6,7 +6,7 @@ function Header() {
        <h3>
          <p><span>¡Hola! </span>Mi nombre es</p>
          Santiago Chacón
-         <h2>Front-end Web Developer</h2>
+         <h2>Desarrollador Web Front-End</h2>
        </h3>
     </div>
   );

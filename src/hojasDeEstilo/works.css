@@ -1,4 +1,12 @@
 /* VIDEO PORTAFOLIO */
+.desactive {
+    display: none !important;
+}
+.app {
+    object-fit: cover;
+    height: 500px;
+    border-radius: none !important;
+}
 .portafolio {
     margin-top: 40px;
     display: flex;
@@ -32,6 +40,10 @@
 .portafolio_item:hover {
     border-color: var(--color-sec);
     background: transparent;
+}
+.portafolio_item.apps {
+    border: none;
+    background: none;
 }
 .portafolio_item-image {
     border-radius: 1.5rem;
@@ -78,6 +90,7 @@
     color: #fff;
 }
 
+
 /* MEDIA QUERIES */
 @media (min-width: 908px) {
     .portafolio_container {
@@ -122,6 +135,9 @@
 @media (max-width: 700px) {
     .portafolio_title {
         font-size: 28px;
+    }
+    .app {
+        height: 400px;
     }
 }
 @media (max-width: 400px) {

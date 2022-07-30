@@ -5,6 +5,8 @@ import Home from './components/home';
 import Works from './components/works';
 import Contact from './components/contact';
 import Footer from './components/footer';
+// import data
+import { itemsWeb } from './data';
 
 
 function App() {
@@ -15,7 +17,7 @@ function App() {
       <Header />
       <Navbar />
       <Home />
-      <Works />
+      <Works title={'Webs'} data={itemsWeb} web={true}/>
       <Contact />
       <Footer />
     </div>
