@@ -1,5 +1,12 @@
 export const itemsWeb = [
     {
+      title: 'Audiometria',
+      img: require('./props/audiometria.png'),
+      link: 'https://audiometria-scc.netlify.app/',
+      github: 'https://github.com/santiago1525/audiometria'
+
+    },
+    {
       title: 'Real State',
       img: require('./props/realState.png'),
       link: 'https://real-state-wheat.vercel.app/',
@@ -30,12 +37,12 @@ export const itemsWeb = [
       github: 'https://github.com/santiago1525/landingPage'
     },
     
-    {
+    /* {
       title: 'blog de cafe',
       img: require('./props/bloCafe.png'),
       link: 'https://blogdecafe-scc.netlify.app/',
       github: 'https://github.com/santiago1525/blogCafe'
-    }
+    } */
   
 ];
 
