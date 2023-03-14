@@ -39,7 +39,6 @@
 }
 .portafolio_item:hover {
     border-color: var(--color-sec);
-    background: transparent;
 }
 .portafolio_item.apps {
     border: none;
@@ -125,6 +124,9 @@
   .swiper-slide img {
     display: block;
     width: 100%;
+  }
+  .swiper-3d .swiper-slide-shadow-right, .swiper-3d .swiper-slide-shadow-left {
+    border-radius: 2rem;
   }
 
 @media (max-width: 800px) {
