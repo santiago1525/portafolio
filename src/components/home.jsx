@@ -36,15 +36,15 @@ function Home() {
         <p>
           Soy un programador web en constante evolución con experiencia en la creación de páginas web utilizando lenguajes como HTML y CSS. He trabajado en proyectos con conexión a bases de datos usando MYSQL o Firebase, y he administrado algunas de ellas a través de phpMyAdmin. Mis habilidades también incluyen el desarrollo de páginas web utilizando PHP, JavaScript y frameworks de CSS como Materialize o Bootstrap para lograr un diseño completamente responsivo. Además, he implementado proyectos trabajados con React.js, empleando la creación de componentes para una experiencia de usuario dinámica y atractiva. <br /> <br />
           
-          Conocimiento en la creación de aplicaciones nativas para Android e iOS usando Flutter. <br />
+          Conocimiento en la creación de aplicaciones nativas para Android e iOS usando Flutter. <br /><br />
 
-          Experiencia en la creación de aplicaciones no code en plataformas como Glide, Adalo y FlutterFlow. <br />
+          Experiencia en la creación de aplicaciones no code en plataformas como Glide, Adalo y FlutterFlow. <br /><br />
 
-          Conocimientos intermedios en Excel.<br />
+          Conocimientos intermedios en Excel.<br /><br />
 
-          Conocimientos en otros lenguajes como C++ y Matlab.<br />
+          Conocimientos en otros lenguajes como C++ y Matlab.<br /><br />
 
-          Certificado en formulación de proyectos.<br />
+          Certificado en formulación de proyectos.<br /><br />
 
           Certificado en creación de planes de marketing.<br />
         </p>
